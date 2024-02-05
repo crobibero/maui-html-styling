@@ -13,12 +13,32 @@
 
     <VerticalStackLayout Margin="20">
 
-        <Label x:Name="Label1"
-               Style="{StaticResource PrimaryStyle}"
-               TextType="Html" />
+        <Label TextType="Html"
+               Style="{StaticResource PrimaryStyle}">
+            <Label.Text>
+                <![CDATA[
+                    <strong>Bold Text</strong><br>
+                    <em>italics</em><br>
+                    <ul>
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                    </ul>
+                ]]>
+            </Label.Text>
+        </Label>
         
-        <Label x:Name="Label2"
-               TextType="Html" />
+        <Label TextType="Html">
+            <Label.Text>
+                <![CDATA[
+                    <strong>Bold Text</strong><br>
+                    <em>italics</em><br>
+                    <ul>
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                    </ul>
+                ]]>
+            </Label.Text>
+        </Label>
 
     </VerticalStackLayout>
 
