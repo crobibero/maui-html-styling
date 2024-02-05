@@ -16,6 +16,9 @@
         <Label x:Name="Label1"
                Style="{StaticResource PrimaryStyle}"
                TextType="Html" />
+        
+        <Label x:Name="Label2"
+               TextType="Html" />
 
     </VerticalStackLayout>
 

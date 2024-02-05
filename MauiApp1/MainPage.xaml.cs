@@ -6,13 +6,16 @@ public partial class MainPage : ContentPage
     {
         InitializeComponent();
 
-        Label1.Text = """
-                      <strong>Bold Text</strong><br>
-                      <em>italics</em><br>
-                      <ul>
-                        <li>Item 1</li>
-                        <li>Item 2</li>
-                      </ul>
-                      """;
+        var str = """
+                    <strong>Bold Text</strong><br>
+                    <em>italics</em><br>
+                    <ul>
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                    </ul>
+                    """;
+
+        Label1.Text = str;
+        Label2.Text = str;
     }
 }
